@@ -3,10 +3,10 @@
 """Define a class."""
 
 class square:
-    """A square"""
+    """My square."""
 
-    def __init__(self,size):
-        """Initialize the square.
+    def __init__(self,size)
+        """Initialize my square.
         Args:
             size (int): Size of square.
         """
