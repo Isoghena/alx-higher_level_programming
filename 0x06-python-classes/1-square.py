@@ -2,11 +2,12 @@
 
 """Define a class."""
 
-class square:
+
+class Square:
     """My square."""
 
     def __init__(self,size)
-        """Initialize my square.
+        """Initialize my Square.
         Args:
             size (int): Size of square.
         """
