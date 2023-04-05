@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines a class Square."""
+"""Defines a class Square"""
 
 
 class Square:
@@ -8,7 +8,7 @@ class Square:
         __size (int): size of a side of the square
     """
     def __init__(self, size=0):
-        """Initializes the square
+        """initializes the square
         Args:
             size (int): size of a side of the square
         Returns:
@@ -17,7 +17,7 @@ class Square:
         self.size = size
 
     def area(self):
-        """Calculates the square's area
+        """calculates the square's area
         Returns:
             The area of the square
         """
@@ -40,9 +40,9 @@ class Square:
             None
         """
         if type(value) is not int:
-            raise TypeError("Size must be an integer")
-        elif:
+            raise TypeError("size must be an integer")
+        else:
             if value < 0:
-                raise ValueError("Size must be >= 0")
-            elif:
+                raise ValueError("size must be >= 0")
+            else:
                 self.__size = value
