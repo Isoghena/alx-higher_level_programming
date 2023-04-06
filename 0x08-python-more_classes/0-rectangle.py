@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+"""
+Define a Rectangle
+"""
 
-"""Define a rectangle."""
 
-def rectangle:
+def Rectangle:
     """Defining an empty rectangle."""
     pass
