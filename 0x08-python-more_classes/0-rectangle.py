@@ -4,6 +4,6 @@ Define a Rectangle
 """
 
 
-def Rectangle:
+class Rectangle:
     """Defining an empty rectangle."""
     pass
