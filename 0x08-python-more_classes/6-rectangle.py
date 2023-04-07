@@ -64,3 +64,7 @@ class Rectangle:
     def __repr__(self):
         """return string representation of  rectangle for reproduction"""
         return ("Rectangle({}, {})".format(self.__width, self.__height))
+
+    def __del__(self):
+        type(self).number_of_instances -= 1
+        print("Bye rectangle...")
