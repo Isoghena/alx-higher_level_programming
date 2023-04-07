@@ -1,38 +1,38 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """
-Define a Rectangle
+Defines a class Rectangle
 """
 
 
 class Rectangle:
-    """Represent a rectangle"""
-    def __init__(self,width=0, height=0):
-        """Initialize the rectangle"""
+    """Representation of a rectangle"""
+    def __init__(self, width=0, height=0):
+        """Initializes the rectangle"""
         self.width = width
         self.height = height
 
     @property
     def width(self):
-        """getter private instance attribute width"""
+        """getter for private instance attribute width"""
         return self.__width
 
     @width.setter
-    def width(self,value):
-        """setter private instance attribut width"""
+    def width(self, value):
+        """setter for private instance attribute width"""
         if type(value) is not int:
             raise TypeError("width must be an integer")
-        if width < 0:
+        if value < 0:
             raise ValueError("width must be >= 0")
         self.__width = value
 
     @property
     def height(self):
-        """getter private instance attribute height"""
+        """getter for private instance attribute height"""
         return self.__height
 
     @height.setter
     def height(self, value):
-        """setter private instance attribute height"""
+        """setter for private instance attribute height"""
         if type(value) is not int:
             raise TypeError("height must be an integer")
         if value < 0:
@@ -40,13 +40,11 @@ class Rectangle:
         self.__height = value
 
     def area(self):
-        """calculate the area of rectangle"""
-        if self.__width * self.__height
+        """calculate the area of the rectangle"""
+        return self.__width * self.__height
 
     def perimeter(self):
-        """calculate the perimeter of rectangle"""
+        """calculate the perimeter of the rectangle"""
         if self.__width == 0 or self.__height == 0:
             return 0
         return (self.__width * 2) + (self.__height * 2)
-
-
