@@ -8,8 +8,8 @@ class Student:
         """Initialize the student."""
         self.first_name = first_name
         self.last_name = last_name
-        seld.age = age
+        self.age = age
 
     def to_json(self):
-        """Returns dictionary representation instance of student."""
+        """returns dictionary representation of student"""
         return self.__dict__
