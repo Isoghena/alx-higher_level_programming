@@ -16,13 +16,13 @@
 >>> print(matrix_divided(matrix, 0))
 Traceback (most recent call last):
 ...
-ZeroDivisionError: division by Zero
+ZeroDivisionError: division by zero
 
 >>> matrix = [[1, 2, 3],[4, 5, 6, 3]]
 >>> print(matrix_divided(matrix, 3))
 Traceback (most recent call last):
 ...
-TypeError: Each row of metrix must have same size
+TypeError: Each row of the matrix must have the same size
 
 
 >>> matrix = [[1, "a", 3],[4, 5, 6]]
