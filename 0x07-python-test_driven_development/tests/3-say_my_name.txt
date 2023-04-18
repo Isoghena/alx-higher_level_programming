@@ -10,7 +10,7 @@ My name is John Smith
 >>> say_my_name("Groot")
 My name is Groot
 
->>> say_my_name("", "")
+>>> say_my_name(", ")
 My name is
 
 """ ERRORS """
