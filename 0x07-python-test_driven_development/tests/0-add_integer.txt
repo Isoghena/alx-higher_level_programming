@@ -1,0 +1,22 @@
+>>> add_integer = __import__('0-add_integer').add_integer
+>>> add_integer(2,3)
+5
+>>> add_integer(10, 20)
+30
+>>> add_integer(1.1, 2.0)
+3
+
+""" ERRORS """
+
+#pass in not int, string
+>>> add_integer("poo", 2)
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+
+
+#pass in a string for b
+>>> add_integer(7, "hi")
+Traceback (most recent call last):
+...
+TypeError: b must be an integer
