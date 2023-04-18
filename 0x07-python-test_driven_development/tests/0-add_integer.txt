@@ -5,6 +5,8 @@
 30
 >>> add_integer(1.1, 2.0)
 3
+>>> add_integer(1)
+99
 
 """ ERRORS """
 
