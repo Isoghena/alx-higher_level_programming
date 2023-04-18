@@ -1,0 +1,40 @@
+"""
+TEST CASE FOR IDENTATION
+"""
+
+>>> text_indentation = __import__('5-text_identation').text_identation
+
+>>> text_indentation("dump")
+dump
+
+>>> text_indentation("du.mp")
+du.
+<BLANKLINE>
+mp
+
+>>> text_indentation("du: mp")
+du:
+<BLANKLINE>
+mp
+
+>>> text_identation("") is None
+True
+
+>>> text_identation("dump:    ?  ")
+dump:
+<BLANKLINE>
+?
+<BLANKLINE>
+
+
+""" ERRORS """
+
+>>> text_identation(3)
+Traceback (most recent call last):
+...
+TypeError: text must be a string
+
+>>> text_identation(None)
+Traceback (most recent call last):
+...
+TypeError: text must be a string
