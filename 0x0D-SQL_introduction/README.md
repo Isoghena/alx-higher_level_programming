@@ -1,11 +1,10 @@
 <h1>SQL - Introduction</h1>
 
-<p><img alt="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/272/rtcwz.jpg" /></p>
+![Image](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/272/rtcwz.jpg "icon")
 
 <h2>Resources</h2>
 
-<p><a 
-href="https://www.youtube.com/watch?v=FR4QIeZaPeM" /></p>
+A [link]("https://www.youtube.com/watch?v=FR4QIeZaPeM" ).
 <p><a
 href="https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04" /></p>
 <p><a
